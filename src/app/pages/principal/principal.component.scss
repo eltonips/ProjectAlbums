@@ -1,0 +1,56 @@
+@import "../../../styles/variables.scss";
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5%;
+
+    .container-form{
+        border-radius: 10px;
+        background-color: $gray-background;
+        box-shadow: 0 30px 60px 0 gray;        
+        width: 55%;
+        height: 450px;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .container-form:hover {
+        box-shadow: 0 30px 60px 0 rgb(54, 54, 54);
+    }
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 30px;    
+}
+
+table {
+    margin-top: 40px;
+    width: 100%;
+    text-align: left;
+
+    th {
+      color: #61677A;
+      font-size: .7rem;
+    }
+
+    th, td {
+      padding: 6px 0px;
+      border-top: 1px solid ;
+    }
+
+    span {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
+  .capa{
+    cursor: pointer;    
+  }
+

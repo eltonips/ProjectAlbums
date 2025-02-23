@@ -1,0 +1,23 @@
+<app-default-login-layout
+    title="Projeto Albums"
+    btnText="Logar"
+    (submit)="submit()"
+>
+    <form [formGroup]="loginForm">
+        <app-primary-input 
+            formControlName="email"
+            inputName="email"
+            type="email"
+            label="E-mail"
+            placeholder="E-mail do Usuário">            
+            <img src="/assets/email.ico"/>
+        </app-primary-input>        
+        <app-primary-input 
+            formControlName="password"
+            inputName="password"
+            type="password"
+            label="Senha">            
+            <img src="/assets/password.ico"/>
+        </app-primary-input>
+    </form>
+</app-default-login-layout>

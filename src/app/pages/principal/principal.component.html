@@ -1,0 +1,20 @@
+<div>
+    <h2>Lista de Albums</h2>
+</div>
+<div class="container">
+    
+        <table>
+            <thead>
+              <th> Album </th>
+              <th> Capa </th>
+            </thead>
+          
+            <tbody>
+              <tr *ngFor="let albumPhoto of albumPhotos">
+                <td> {{ albumPhoto.album.title }} </td>                
+                <td> <img class="capa" (click)="listaImagens(albumPhoto.album)" src="{{ albumPhoto.photo.url }}" />  </td>                
+              </tr>
+        
+            </tbody>
+          </table>
+</div>

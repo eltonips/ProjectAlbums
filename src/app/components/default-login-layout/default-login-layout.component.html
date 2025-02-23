@@ -1,0 +1,10 @@
+<div class="principal">
+    <form class="conteudo-form">
+        <section>
+            <img class="logo" src="/assets/logo.png" />
+            <h2>{{ title }}</h2>
+            <ng-content></ng-content>
+            <button (click)="submit()">{{ btnText }}</button>
+        </section>        
+    </form>
+</div>

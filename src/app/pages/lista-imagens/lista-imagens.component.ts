@@ -29,4 +29,8 @@ export class ListaImagensComponent implements OnInit {
       
   } 
 
+  voltar() {
+    this.router.navigate(['/principal']);
+  }
+
 }

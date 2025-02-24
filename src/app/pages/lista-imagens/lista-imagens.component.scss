@@ -1,0 +1,19 @@
+@import "../../../styles/variables.scss";
+
+button {
+    background-color: $primary-color;
+    border: none;
+    color: white;
+    padding: 15px 0px;
+    margin-top: 10px;                
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    box-shadow: 0 5px 15px 0 $primary-color;
+    border-radius: 5px 5px 5px 5px;
+    transition: all 0.3s ease-in-out;
+    width: 15%;
+    cursor: pointer;
+}

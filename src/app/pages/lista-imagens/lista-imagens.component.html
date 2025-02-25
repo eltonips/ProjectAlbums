@@ -1,7 +1,6 @@
+<button (click)="voltar()">Voltar</button>
 <ul>
-    <button (click)="voltar()">Voltar</button>
     <li *ngFor="let item of photos">
-        <img src="{{item.url}}"/>
-        {{ item.title }}        
+        <img src="{{item.url}}" />
     </li>
 </ul>
